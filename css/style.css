@@ -1,0 +1,213 @@
+/* GOOGLE FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Fira+Sans+Extra+Condensed:wght@200&family=Sue+Ellen+Francisco&display=swap');
+
+*
+    {font-family: 'Fira Sans Extra Condensed', sans-serif;}
+
+/* COLOR PALETTE */
+*
+    {background-color: #FFEAEA;}
+
+/* HEADER */
+.header {
+    width: 700px;
+    background-color: #03110d;
+}
+
+.headerlogo {
+    width: 1520px;
+    padding: none;
+    margin: none;
+}
+/* NAV BAR */
+
+.homenavimg {
+    width: 165px;
+    padding: -20px;
+}
+
+.navimg {
+    height: 100px;
+}
+
+.hometopnav {
+    position: relative;
+    background-color: #FFEAEA;
+    overflow: hidden;
+}
+
+.topnav {
+    position: relative;
+    background-color: #03110D;
+    overflow: hidden;
+    height: 112px;
+}
+
+/* Style Nav Bar Links */
+.hometopnav a {
+    float: left;
+    color: #03110d;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Abhaya Libre', serif;
+    width: 220px;
+}
+
+.topnav a {
+    float: left;
+    background-color: #03110d;
+    color: #FFEAEA;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Abhaya Libre', serif;
+    width: 128px;
+}
+/* Hover Style Nav Bar Links */
+.hometopnav a:hover {
+    background-color: #03110d;
+    color: #FFEAEA;
+    text-decoration: underline;
+}
+
+.topnav a:hover {
+    background-color: #FFEAEA;
+    color: #03110d;
+    text-decoration: underline;
+}
+
+/* Top-Centered Logo Nav Link */
+.hometopnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav-centered {
+    background-color: #03110d;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%)
+}
+/* Hover Top-Centered Logo Nav Link */
+.hometopnav-centered a:hover {
+    background-color: #FFEAEA;
+}
+
+.topnav-centered a:hover {
+    background-color:#03110d;
+}
+
+/* Right-aligned Nav Bar Links */
+.hometopnav-right {
+    float: right;
+}
+
+.topnav-right {
+    float: right;
+}
+
+/* Page Content */
+.content {
+    padding: 16px;
+}
+
+/* Sticky Nav Bar */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/* Affirmation Generator */
+#container{
+	width:800px;
+	margin:50px auto;
+	padding: 20px;
+	width:50%;
+}
+#container h2{
+	text-align:center;
+	color:#045;
+}
+
+#quoteContainer{
+	width:75%;
+	background: #fff;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  height:70px;
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+	width:200px;
+	margin-top: 10px;
+	border:2px solid #46b8da;
+	color:#045;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#09c;
+	color: #fff;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+/* MEDIA QUERIES
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+} */
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #03110d;
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: #03110d;
+}
