@@ -23,31 +23,56 @@
         </div>
 
         <!-- Left-Aligned Links -->
-        <a href="self.html">self</a>
-        <a href="relationships.html">relationships</a>
-        <a href="style.html">style</a>
+        <a href="self.html" id="self">self</a>
+        <a href="relationships.html" id="relationships">relationships</a>
+        <a href="style.html" id="style">style</a>
         
         <!-- Right-Aligned Links -->
         <div class="topnav-right">
-            <a href="faves.html">faves</a>
-            <a href="about.html">about</a>
-            <a href="contact.html">contact</a>
+            <a href="faves.html" id="faves">faves</a>
+            <a href="about.html" id="about">about</a>
+            <a href="contact.html" id="contact">contact</a>
         </div>
     </div>
 </nav> 
 
+<!-- CONTACT FORM -->
+<div class="contactcontainer">
+    <form action="action_page.php">
 
-<!-- Sticky Nav JS Import -->
-<script src="js/stickynav.js">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="timezone">Time Zone</label>
+        <select id="timezone" name="timezone">
+            <option value="PST">Pacific Time</option>
+            <option value="MST">Mountain Time</option>
+            <option value="CST">Central Time</option>
+            <option value="EST">Eastern Time</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write your message here..." style="height: 200px"></textarea>
+
+        <input type ="submit" value ="Submit">
+    </form>
+</div>
+
+<!-- Sticky Nav JS Import
+<script src="js/stickynav.js"> -->
 </script>
 </body>
 
 <!-- FOOTER -->
 <footer>
     <div class="footer">
+        <div class="copyright">&copy; Christina Moon Zurowski Copyright 2021</div>
         <div class="socialmedia">
-            <a href="" class="fab fa-github-alt"></a>
-            <a href="" class="fab fa-reddit-alien"></a>
+            <a href="" class="fab fa-github-alt fa-2x"></a>
+            <a href="" class="fab fa-reddit-alien fa-2x"></a>
         </div>
     </div>
 </footer>

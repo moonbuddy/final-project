@@ -6,7 +6,7 @@
 
 /* COLOR PALETTE */
 *
-    {background-color: #FFEAEA;}
+    {background-color: #FFFFFF;}
 
 /* HEADER */
 .header {
@@ -32,13 +32,15 @@
 
 .hometopnav {
     position: relative;
-    background-color: #FFEAEA;
+    /* background-color: #FFFFFF; */
     overflow: hidden;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
 }
 
 .topnav {
     position: relative;
-    background-color: #03110D;
+    /* background-color: #03110D; */
     overflow: hidden;
     height: 112px;
 }
@@ -57,8 +59,8 @@
 
 .topnav a {
     float: left;
-    background-color: #03110d;
-    color: #FFEAEA;
+    /* background-color: #03110d; */
+    color: #FFFFFF;
     text-align: center;
     padding: 50px 16px;
     text-decoration: none;
@@ -69,12 +71,12 @@
 /* Hover Style Nav Bar Links */
 .hometopnav a:hover {
     background-color: #03110d;
-    color: #FFEAEA;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
 .topnav a:hover {
-    background-color: #FFEAEA;
+    background-color: #FFFFFF;
     color: #03110d;
     text-decoration: underline;
 }
@@ -89,7 +91,7 @@
 }
 
 .topnav-centered {
-    background-color: #03110d;
+    /* background-color: #03110d; */
 }
 
 .topnav-centered a {
@@ -101,11 +103,11 @@
 }
 /* Hover Top-Centered Logo Nav Link */
 .hometopnav-centered a:hover {
-    background-color: #FFEAEA;
+    background-color: #FFFFFF;
 }
 
 .topnav-centered a:hover {
-    background-color:#03110d;
+    background-color:#FFFFFF;
 }
 
 /* Right-aligned Nav Bar Links */
@@ -133,66 +135,90 @@
     padding-top: 60px;
 }
 
-/* Affirmation Generator */
-#container{
-	width:800px;
-	margin:50px auto;
-	padding: 20px;
-	width:50%;
+/* Nav Bar Colors */
+
+#homeself, #self {
+    color: #FF1489
 }
-#container h2{
-	text-align:center;
-	color:#045;
+#homeself:hover {
+    background-color: #FF1489;
+    color: #FFFFFF;
 }
 
-#quoteContainer{
-	width:75%;
-	background: #fff;
-	padding:10px;
-	margin:30px auto;
-	text-align: center;
-  height:70px;
+#homerelationships, #relationships {
+    color: #FF8623
+
 }
-#buttonContainer{
-	width: 100%;
-	text-align: center;
-}
-#quoteButton{
-	width:200px;
-	margin-top: 10px;
-	border:2px solid #46b8da;
-	color:#045;
-	font-family: inherit;
-	font-weight: bold;
-	padding:5px;
-	text-decoration: none;
-	text-align: center;
+#homerelationships:hover {
+    background-color: #FF8623;
+    color: #FFFFFF;
 }
 
-#quoteButton:hover{
-	cursor:pointer;
-	background:#09c;
-	color: #fff;	
-}
-#quoteButton:active{
-	cursor: pointer;
-}
-#quoteButton{
-	display: inline-block;
-}
-#quoteGenius{
-	font-style: italic;
-	font-weight: 600;
-	text-align: center;
+#homestyle, #style {
+    color: #F3EB03;
 }
 
+#homestyle:hover {
+    background-color: #F3EB03;
+    color: #FFFFFF;
+}
 
-/* MEDIA QUERIES
-@media screen and(max-width:760px){
-	#quoteButton,#addNew{
-		display: block;
-	}
-} */
+#homefaves, #faves {
+    color: #3DD654;
+}
+
+#homefaves:hover {
+    background-color: #3DD654;
+    color: #FFFFFF;
+}
+
+#homeabout, #about {
+    color: #1974d2
+}
+
+#homeabout:hover {
+    background-color: #1974d2;
+    color: #FFFFFF;
+}
+
+#homecontact, #contact {
+    color: #d11bbc;
+}
+
+#homecontact:hover {
+    background-color: #d11bbc;
+    color: #FFFFFF;
+}
+
+/* Contact Form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #03110D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactcontainer {
+    border-radius: 5px;
+    padding: 20px;
+}
 
 /* Footer */
 .footer {
@@ -202,12 +228,23 @@
     width: 100%;
     background-color: #03110d;
 }
-
+.copyright {
+    float: left;
+    text-align: left;
+    background-color: #03110d;
+    color: #FFFFFF;
+    font-size: 28px;
+    padding-top: 7px;
+}
 .socialmedia {
+    float: right;
     text-align: right;
+    background-color: #03110d;
+    padding: 8px;
 }
 
 .socialmedia a {
     text-decoration: none;
-    color: #03110d;
+    color: #FFFFFF;
+    background-color: #03110d;
 }
